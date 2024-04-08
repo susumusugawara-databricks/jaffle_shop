@@ -2,9 +2,9 @@
    target: databricks_job
    outputs:
      databricks_job:
-      connect_retries: 1
-      connect_timeout: 1
-      thread: 100
+      connect_retries: 6
+      connect_timeout: 1200
+      thread: 4
       type: databricks
       method: http
       schema: "main"
