@@ -3,8 +3,8 @@
    outputs:
      databricks_job:
       connect_retries: 1
-      connect_timeout: 1
-      thread: 1
+      connect_timeout: 100
+      thread: 6
       type: databricks
       method: http
       schema: "main"
