@@ -4,7 +4,7 @@
      databricks_job:
       connect_retries: 6
       connect_timeout: 1200
-      thread: 1
+      thread: 4
       type: databricks
       method: http
       schema: "main"
